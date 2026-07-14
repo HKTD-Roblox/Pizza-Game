@@ -1,3 +1,5 @@
+-- Script By HKTD, TiTok: https://www.tiktok.com/@hktd_roblox
+
 local Players = game:GetService("Players")
 local LocalPlayer = Players.LocalPlayer
 local Character = LocalPlayer.Character or LocalPlayer.CharacterAdded:Wait()
@@ -6,7 +8,7 @@ local RunService = game:GetService("RunService")
 local GodMode = false
 local KillAll = false
 local Library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/theneutral0ne/wally-modified/refs/heads/main/wally-modified.lua")))()
-local Window = Library:CreateWindow('Credit: HKTD')
+local Window = Library:CreateWindow('Pizza Game Beta')
 Window:Toggle("God Mode", {}, function(value)
     GodMode = value
 end)
