@@ -6,7 +6,7 @@ local RunService = game:GetService("RunService")
 local GodMode = false
 local KillAll = false
 local Library = loadstring(game:HttpGet(("https://raw.githubusercontent.com/theneutral0ne/wally-modified/refs/heads/main/wally-modified.lua")))()
-local Window = Library:CreateWindow('Pizza Game Beta')
+local Window = Library:CreateWindow('Pizza Game Script')
 Window:Toggle("God Mode", {}, function(value)
     GodMode = value
 end)
