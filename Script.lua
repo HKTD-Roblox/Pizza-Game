@@ -125,7 +125,7 @@ Tabs.Main0:AddButton({
         setclipboard("https://tiktok.com/@hktd_roblox")
     end
 })
-abs.Main0:AddButton({
+Tabs.Main0:AddButton({
     Title="Discord",
     Description="HKTD | COMMUNITY",
     Callback=function()
@@ -137,7 +137,7 @@ abs.Main0:AddButton({
 Tabs.Main1:AddButton({
     Title="HKTD Hub",
     Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Blox-Fruits/refs/heads/main/HKTD-Hub.lua"))
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Blox-Fruits/refs/heads/main/HKTD-Hub.lua"))()
     end
 })
 Tabs.Main1:AddButton({
@@ -163,7 +163,7 @@ Tabs.Main2:AddButton({
 Tabs.Main2:AddButton({
     Title="Auto Backstab V1",
     Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Forsaken-Script/refs/heads/main/Auto-Backstab-V1.lua))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Forsaken-Script/refs/heads/main/Auto-Backstab-V1.lua"))()
     end
 })
 Tabs.Main2:AddButton({
@@ -183,24 +183,24 @@ Tabs.Main2:AddButton({
 Tabs.Main3:AddButton({
     Title="Wall Hop V1",
     Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Universal-Script/refs/heads/main/Wall-Hop-V1.lua))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Universal-Script/refs/heads/main/Wall-Hop-V1.lua"))()
     end
 })
 Tabs.Main3:AddButton({
     Title="Wall Hop V2",
     Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Universal-Script/refs/heads/main/Wall-Hop-V2.lua))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Universal-Script/refs/heads/main/Wall-Hop-V2.lua"))()
     end
 })
 Tabs.Main3:AddButton({
     Title="Wall Hop V3",
     Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Universal-Script/refs/heads/main/Wall-Hop-V3.lua))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Universal-Script/refs/heads/main/Wall-Hop-V3.lua"))()
     end
 })
 Tabs.Main3:AddButton({
     Title="Wall Hop V4",
     Callback=function()
-        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Universal-Script/refs/heads/main/Wall-Hop-V4.lua))()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/HKTD-Roblox/Universal-Script/refs/heads/main/Wall-Hop-V4.lua"))()
     end
 })
