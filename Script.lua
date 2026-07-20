@@ -23,7 +23,7 @@ local logo = Instance.new("ImageLabel")
 logo.Parent = gui
 logo.AnchorPoint = Vector2.new(0.5,0.5)
 logo.Position = UDim2.new(0.5,0,0.5,0)
-logo.Size = UDim2.new(0,0,0,0) -- bắt đầu nhỏ rồi zoom
+logo.Size = UDim2.new(0,0,0,0)
 logo.BackgroundTransparency = 1
 logo.Image = "http://www.roblox.com/asset/?id=123653870026944"
 logo.ImageTransparency = 1
@@ -153,7 +153,7 @@ Tabs.Main1:AddButton({
     end
 })
 
--- Tab Foraken
+-- Tab Forsaken
 Tabs.Main2:AddButton({
     Title="HKTD Hub",
     Callback=function()
