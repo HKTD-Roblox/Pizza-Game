@@ -25,7 +25,7 @@ logo.AnchorPoint = Vector2.new(0.5,0.5)
 logo.Position = UDim2.new(0.5,0,0.5,0)
 logo.Size = UDim2.new(0,0,0,0) -- bắt đầu nhỏ rồi zoom
 logo.BackgroundTransparency = 1
-logo.Image = "http://www.roblox.com/asset/?id=77111304194141"
+logo.Image = "http://www.roblox.com/asset/?id=123653870026944"
 logo.ImageTransparency = 1
 
 -- Show Logo (Zoom + Fade In)
@@ -49,7 +49,7 @@ msg.AnchorPoint = Vector2.new(0.5,0)
 msg.Position = UDim2.new(0.5,0,0.75,0)
 msg.Size = UDim2.new(0,600,0,80)
 msg.BackgroundTransparency = 1
-msg.Text = "Grai Hub"
+msg.Text = "HKTD Script"
 msg.TextColor3 = Color3.fromRGB(0,255,255)
 msg.Font = Enum.Font.GothamBlack
 msg.TextScaled = true
@@ -84,7 +84,7 @@ ImageButton.BorderSizePixel = 0
 ImageButton.Position = UDim2.new(0.1,0,0.15,0)
 ImageButton.Size = UDim2.new(0,40,0,40)
 ImageButton.Draggable = true
-ImageButton.Image = "http://www.roblox.com/asset/?id=77111304194141"
+ImageButton.Image = "http://www.roblox.com/asset/?id=123653870026944"
 
 local UICorner = Instance.new("UICorner")
 UICorner.Parent = ImageButton
