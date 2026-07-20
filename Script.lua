@@ -122,7 +122,7 @@ Tabs.Main0:AddButton({
     Title="TikTok",
     Description="HKTD",
     Callback=function()
-        setclipboard("https://www.tiktok.com/@hktd_roblox")
+        setclipboard("https://tiktok.com/@hktd_roblox")
     end
 })
 abs.Main0:AddButton({
